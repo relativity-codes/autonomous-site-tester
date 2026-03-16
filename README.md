@@ -2,6 +2,9 @@
 
 An advanced, multi-agent autonomous web testing platform that leverages LLMs for intelligent site exploration, accessibility auditing, and visual validation.
 
+## 📸 Screenshot
+![Test Dashboard](docs/screenshots/dashboard.png)
+
 ## 🚀 Overview
 
 The Autonomous Site Tester is designed to explore web applications like a human would. It uses a suite of specialized agents orchestrated by a central engine to identify functional bugs, accessibility violations, and visual regressions across different operating systems.
@@ -41,4 +44,3 @@ Once a task is complete, an Excel report is automatically generated and saved to
 
 ## 🛡️ Security
 API keys are encrypted using AES-256-GCM and stored locally in an SQLite database.
-# autonomous-site-tester
