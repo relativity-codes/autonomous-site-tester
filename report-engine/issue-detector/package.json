@@ -1,0 +1,10 @@
+{
+  "name": "issue-detector",
+  "version": "1.0.0",
+  "description": "Analyzing pages and network logs to detect issues",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "report-export",
+  "version": "1.0.0",
+  "description": "Exporting reports to various formats (Excel, PDF, JSON)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}

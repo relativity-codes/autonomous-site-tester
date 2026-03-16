@@ -1,0 +1,33 @@
+{
+  "name": "autonomous-site-tester",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Autonomous Site Tester with Electron and AI Agents",
+  "workspaces": [
+    "apps/*",
+    "agent-runtime/*",
+    "agents/*",
+    "computer-control/*",
+    "browser-engine/*",
+    "data-layer/*",
+    "artifact-storage/*",
+    "report-engine/*",
+    "worker-system/*",
+    "shared/*",
+    "infrastructure/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w apps/desktop",
+    "build": "npm run build -w apps/desktop",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/sqlite3": "^3.1.11",
+    "electron": "^34.5.8"
+  }
+}
